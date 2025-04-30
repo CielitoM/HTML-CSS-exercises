@@ -1,4 +1,11 @@
-.faltante{
+li{
+    color: gray
+}
+.ingrediente-faltante{
     color:red;
     font: 1em sans-serif;
+}
+
+#ingrediente-secreto{
+    color:blue;
 }
