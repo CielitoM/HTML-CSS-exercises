@@ -1,0 +1,18 @@
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    text-decoration:underline;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-decoration: line-through;
+    color: brown;
+}
