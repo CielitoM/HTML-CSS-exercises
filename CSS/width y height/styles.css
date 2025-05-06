@@ -8,3 +8,12 @@ h1{
     background-color:blue;
     text-align: center;
 }
+
+input{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100px;
+}
