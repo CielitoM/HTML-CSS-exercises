@@ -1,7 +1,6 @@
 .formulario{
     background-color: red;
     padding: 30px
-    
 }
 
 .formulario_input{
@@ -9,6 +8,7 @@
     width: 90%;
     background-color: black;
     color: red;
+    margin: 10px;
 }
 
 .formulario_submit{
