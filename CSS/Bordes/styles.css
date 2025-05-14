@@ -4,3 +4,9 @@ div{
     margin: auto;
     text-align: center;
 }
+
+div{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
