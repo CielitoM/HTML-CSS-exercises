@@ -10,6 +10,7 @@ body{
 }
 
 .box-default{
+    box-sizing: border-box;
     padding: 25px;
     border:10px solid black;
 }
