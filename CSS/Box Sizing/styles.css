@@ -1,22 +1,37 @@
-body{
-    margin:0;
+/* Quita el margen por defecto del body para evitar espacios no deseados */
+body {
+    margin: 0;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    margin: 10px;
+/* Estilo base común a todas las cajas */
+.box {
+    width: 100px;              /* Ancho definido */
+    height: 100px;             /* Alto definido */
+    background-color: red;     /* Color de fondo para visibilidad */
+    margin: 10px;              /* Margen exterior para separación entre cajas */
 }
 
-.box-default{
-    box-sizing: border-box;
-    padding: 25px;
-    border:10px solid black;
+/* Caja con box-sizing: content-box (comportamiento por defecto en CSS) */
+.box-content {
+    box-sizing: content-box;           /* Padding y borde se suman al tamaño */
+    padding: 25px;                     /* Espacio interno */
+    border: 10px solid black;          /* Borde exterior */
+    background-color: lightblue;       /* Color distinto para identificarla */
+    /* 
+    Tamaño final real = 
+    ancho: 100 + (2×25 padding) + (2×10 border) = 170px
+    alto:  100 + (2×25 padding) + (2×10 border) = 170px
+    */
 }
 
-.box-new{
-    box-sizing: border-box;
+/* Caja con box-sizing: border-box */
+.box-default {
+    box-sizing: border-box;            /* Padding y border se incluyen en el ancho/alto */
     padding: 25px;
     border: 10px solid black;
+    background-color: lightgreen;      /* Color distinto para identificarla */
+    /*
+    Tamaño final real = 100x100px exactos
+    El contenido se ajusta para que todo encaje dentro del tamaño especificado
+    */
 }
