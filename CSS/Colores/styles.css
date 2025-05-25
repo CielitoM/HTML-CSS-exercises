@@ -1,6 +1,9 @@
 .box{
     width: 100px;
     height: 100px;
-    background: red;
+    /*Forma 1 - rgb normal*/
+    background: rgb(255, 0, 255);
+    /*Forma 1 - rgb hexadecimal*/
+    background: #0066aa;
     margin: 20px;
 }
