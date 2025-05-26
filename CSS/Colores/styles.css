@@ -1,9 +1,14 @@
 .box{
+    padding: 50px;
     width: 100px;
     height: 100px;
     /*Forma 1 - rgb normal*/
     background: rgb(255, 0, 255);
-    /*Forma 1 - rgb hexadecimal*/
-    background: #0066aa;
+    /*Forma 2 - rgb hexadecimal*/
+        /*background: #0066aa;*/
+    /*Forma 2 - rgb hexadecimal*/
+        /*background: hsl(180, 40%, 50%)*/
     margin: 20px;
+    margin-left: 100px;
+    text-align: center;
 }
