@@ -1,20 +1,24 @@
-.box{
-    padding: 50px;
-    width: 100px;
-    height: 100px;
-    /*Forma 1 - rgb normal*/
-    background: rgb(200, 102, 200);
-    /*Forma 2 - rgb hexadecimal*/
-        /*background: #0066aa;*/
-    /*Forma 2 - rgb hexadecimal*/
-        /*background: hsl(180, 40%, 50%)*/
-    margin: 20px;
-    margin-left: 100px;
-    text-align: center;
-    color: rgb(248, 186, 248);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+.box {
+    padding: 50px; /* Espacio interno entre el borde y el contenido */
+    width: 100px;  /* Ancho fijo de la caja */
+    height: 100px; /* Alto fijo de la caja */
 
-    border-top: 2px solid rgb(47, 6, 47);
+    /* Color de fondo con valores RGB estándar */
+    background: rgb(200, 102, 200);
+
+    /* Otras formas de definir color (comentadas): */
+    /* background: #0066aa; */           /* Forma hexadecimal */
+    /* background: hsl(180, 40%, 50%); */ /* Forma HSL (matiz, saturación, luminosidad) */
+
+    margin: 20px;        /* Margen externo en todos los lados */
+    margin-left: 100px;  /* Margen adicional en el lado izquierdo */
+
+    text-align: center; /* Centra el texto horizontalmente */
+    color: rgb(248, 186, 248); /* Color del texto */
+
+    font-family: 'Times New Roman', Times, serif; /* Tipografía del texto */
+    font-weight: bold; /* Negrita */
+
+    border-top: 2px solid rgb(47, 6, 47); /* Borde superior con color personalizado */
 }
 
