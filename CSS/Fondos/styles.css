@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(132, 80, 199);
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgba(255, 192, 203, 0.5);
+}
