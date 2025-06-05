@@ -1,20 +1,47 @@
-body{
-    background-color: rgb(132, 80, 199);
+/* Estilos generales para el cuerpo de la página */
+body {
+    background-color: rgb(132, 80, 199); 
+    /* Establece el color de fondo del cuerpo de la página como un tono violeta. */
 }
 
-.box{
-    width: 600px;
-    height: 400px;
-    margin: 20px;
-    background-color: rgba(255, 192, 203, 0.5);
-    background-image: url("https://media.istockphoto.com/id/1479759169/photo/data-science-and-big-data-technology-data-scientist-computing-analysing-and-visualizing.jpg?s=612x612&w=0&k=20&c=m5CzwqrVWCfTfYE7klKKth7CJ98uy0CBEiQGIKp-_X0=");
+/* Estilos para un contenedor con clase "box" */
+.box {
+    width: 600px; /* Ancho fijo de 600 píxeles */
+    height: 400px; /* Alto fijo de 400 píxeles */
+    margin: 20px; /* Margen de 20 píxeles alrededor del contenedor */
 
-    /*background-size: 100%;*/
-    /*background-size: contain;*/
-    /*background-size: cover;*/
-    /*background-position: center*/
-    /*background-position: 10px*/
-    /*background-repeat: no-repeat;
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;*/
+    background-color: rgba(255, 192, 203, 0.5); 
+    /* Color de fondo rosa claro con opacidad del 50%. 
+       Esto permite que elementos detrás del contenedor sean parcialmente visibles. */
+
+    background-image: url("https://media.istockphoto.com/id/1479759169/photo/data-science-and-big-data-technology-data-scientist-computing-analysing-and-visualizing.jpg?s=612x612&w=0&k=20&c=m5CzwqrVWCfTfYE7klKKth7CJ98uy0CBEiQGIKp-_X0=");
+    /* Imagen de fondo con temática de ciencia de datos. */
+
+    /*
+    Las siguientes líneas están comentadas, pero sirven para controlar cómo se muestra la imagen de fondo:
+    
+    background-size: 100%;         
+    - Escala la imagen para que tenga el 100% del tamaño del contenedor.
+    
+    background-size: contain;      
+    - Escala la imagen para que se ajuste completamente dentro del contenedor sin recortarse (puede dejar espacios vacíos).
+    
+    background-size: cover;        
+    - Escala la imagen para cubrir todo el contenedor, recortando si es necesario.
+    
+    background-position: center;   
+    - Centra la imagen en el contenedor.
+    
+    background-position: 10px;     
+    - Coloca la imagen a 10 píxeles del borde superior izquierdo.
+    
+    background-repeat: no-repeat;  
+    - Evita que la imagen de fondo se repita.
+    
+    background-repeat: repeat-x;   
+    - Repite la imagen solo en el eje horizontal.
+    
+    background-repeat: repeat-y;   
+    - Repite la imagen solo en el eje vertical.
+    */
 }
