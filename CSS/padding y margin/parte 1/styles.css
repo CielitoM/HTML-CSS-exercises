@@ -1,20 +1,23 @@
-.formulario{
-    background-color: red;
-    padding: 30px
+/* Estilos para el contenedor principal del formulario */
+.formulario {
+    background-color: red;     /* Fondo rojo para destacar el formulario */
+    padding: 30px;             /* Espaciado interno de 30px alrededor del contenido */
 }
 
-.formulario_input{
-    padding: 9px 12px;
-    width: 90%;
-    background-color: black;
-    color: red;
-    margin: 10px;
+/* Estilos para los campos de entrada dentro del formulario */
+.formulario_input {
+    padding: 9px 12px;         /* Espaciado interno: 9px vertical, 12px horizontal */
+    width: 90%;                /* Ancho del 90% respecto al contenedor padre */
+    background-color: black;   /* Fondo negro para el input */
+    color: red;                /* Texto en color rojo */
+    margin: 10px;              /* Espaciado externo de 10px alrededor del input */
 }
 
-.formulario_submit{
-    letter-spacing: 2px;
-    text-transform: uppecase;
-    background-color: red;
-    color: white;
-    width: 50%;
+/* Estilos para el botón de envío del formulario */
+.formulario_submit {
+    letter-spacing: 2px;       /* Espaciado de 2px entre letras */
+    text-transform: uppecase;  /* (Error tipográfico: debería ser 'uppercase' para convertir texto a mayúsculas) */
+    background-color: red;     /* Fondo rojo del botón */
+    color: white;              /* Texto en color blanco */
+    width: 50%;                /* Ancho del 50% respecto al contenedor padre */
 }
