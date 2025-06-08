@@ -1,23 +1,26 @@
+/* Se define una fuente personalizada llamada "Dalto" utilizando la regla @font-face. 
+   Esto permite usar archivos de fuente locales dentro del proyecto. */
+
 @font-face {
-    font-family: "Dalto";
-    src: url("static/Montserrat-Black.ttf") format("truetype");
-    font-weight: 400;
+    font-family: "Dalto"; /* Nombre que se usará en CSS para referirse a esta fuente */
+    src: url("static/Montserrat-Black.ttf") format("truetype"); /* Ruta al archivo de fuente en formato TrueType */
+    font-weight: 400; /* Peso normal (regular) asignado a esta variante */
+}
+
+@font-face {
+    font-family: "Dalto"; /* Mismo nombre de fuente, pero otro peso */
+    src: url("static/Montserrat-Black.ttf") format("truetype"); /* Se reutiliza el archivo Montserrat-Black */
+    font-weight: 900; /* Peso muy grueso (black) asignado para estilos más marcados */
+}
+
+@font-face {
+    font-family: "Dalto"; /* Fuente "Dalto" con diferente archivo */
+    src: url("static/Montserrat-Bold.ttf") format("truetype"); /* Archivo con estilo Bold */
+    font-weight: 500; /* Peso medio (normalmente usado para semi-bold o medium) */
 }
 
 @font-face {
     font-family: "Dalto";
-    src: url("static/Montserrat-Black.ttf") format("truetype");
-    font-weight: 900; 
-}
-
-@font-face {
-    font-family: "Dalto";
-    src: url("static/Montserrat-Bold.ttf") format("truetype");
-    font-weight: 500; 
-}
-
-@font-face {
-    font-family: "Dalto";
-    src: url("static/Montserrat-ExtraBold.ttf") format("truetype");
-    font-weight: 700; 
+    src: url("static/Montserrat-ExtraBold.ttf") format("truetype"); /* Archivo aún más grueso */
+    font-weight: 700; /* Peso bold estándar */
 }
