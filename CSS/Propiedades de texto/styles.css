@@ -1,22 +1,22 @@
-p{
-    color: red;
-    font-family: Dalto;
-    font-size: 13px;
-    font-weight: 500;
-    font-style: italic;
-    text-align: justify;
-    text-decoration:underline;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+p {
+    color: red; /* El texto de los párrafos será de color rojo */
+    font-family: Dalto; /* Usa la fuente personalizada "Dalto" definida previamente con @font-face */
+    font-size: 13px; /* Tamaño del texto: 13 píxeles */
+    font-weight: 500; /* Grosor de fuente medio (coincide con la variante 500 de "Dalto") */
+    font-style: italic; /* Estilo del texto en cursiva */
+    text-align: justify; /* Justifica el texto (alineado a ambos lados del párrafo) */
+    text-decoration: underline; /* Subraya el texto */
+    line-height: 1; /* Altura de línea igual al tamaño de fuente (13px en este caso, lo que puede dar aspecto compacto) */
+    letter-spacing: 2px; /* Espaciado entre letras: 2 píxeles */
+    text-transform: uppercase; /* Convierte todo el texto a mayúsculas */
 }
 
-h1{
-    text-align: center;
-    font-family: 'Bebas Neue';
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Bebas Neue'; /* Usa la fuente "Bebas Neue" (debe estar cargada o disponible en el sistema o vía web) */
 }
 
 span {
-    text-decoration: line-through;
-    color: brown;
+    text-decoration: line-through; /* Aplica una línea que cruza el texto (tachado) */
+    color: brown; /* Color del texto marrón */
 }
