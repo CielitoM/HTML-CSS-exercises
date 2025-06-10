@@ -1,11 +1,12 @@
-li{
-    color: gray
-}
-.ingrediente-faltante{
-    color:red;
-    font: 1em sans-serif;
+li {
+    color: gray; /* Establece el color del texto de todos los elementos <li> (elementos de lista) en gris */
 }
 
-#ingrediente-secreto{
-    color:blue;
+.ingrediente-faltante {
+    color: red; /* El texto de los elementos con la clase "ingrediente-faltante" se mostrará en rojo */
+    font: 1em sans-serif; /* Define el tamaño de fuente (1em = tamaño del texto heredado) y una familia de fuente genérica sans-serif */
+}
+
+#ingrediente-secreto {
+    color: blue; /* El texto del elemento con el id "ingrediente-secreto" se mostrará en azul */
 }
