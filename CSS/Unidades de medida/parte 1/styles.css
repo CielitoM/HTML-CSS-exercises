@@ -1,27 +1,27 @@
-div{
-    background-color: #ededed;
-    padding: 20px;
-    font-family: sans-serif;
-    border-left: 5px solid #999;
-    width: 400px;
-    font-size: 200px;
+div {
+    background-color: #ededed;      /* Establece un color de fondo gris claro para el contenedor principal */
+    padding: 20px;                  /* Añade un espacio interno (padding) de 20px alrededor del contenido */
+    font-family: sans-serif;        /* Usa una fuente sans-serif para el texto del contenedor */
+    border-left: 5px solid #999;    /* Agrega una línea (borde) izquierda de 5px de grosor con color gris medio */
+    width: 400px;                   /* Define un ancho fijo de 400px para el div */
+    font-size: 200px;               /* Define un tamaño de fuente muy grande (probablemente un error si no se pretende) */
 }
 
-h1{
-    margin: 0;
-    font-size: 24px;
+h1 {
+    margin: 0;                      /* Elimina márgenes alrededor del título */
+    font-size: 24px;                /* Establece un tamaño de fuente de 24px para el encabezado */
 }
 
-span{
-    color: #999;
-    font-size: 16px;
-    font-weight: 100;
+span {
+    color: #999;                    /* Establece un color de texto gris claro para el span */
+    font-size: 16px;                /* Tamaño de fuente de 16px */
+    font-weight: 100;               /* Define un peso de fuente muy ligero */
 }
 
-p{
-    color: #555;
-    background-color: red;
-    margin: 0;
-    width: 200px;
-    font-size: 14px;
+p {
+    color: #555;                    /* Color del texto en gris oscuro */
+    background-color: red;         /* Fondo rojo para el párrafo (llama mucho la atención) */
+    margin: 0;                      /* Elimina márgenes externos del párrafo */
+    width: 200px;                   /* Ancho fijo de 200px para el párrafo */
+    font-size: 14px;                /* Tamaño de fuente moderado para el texto del párrafo */
 }
