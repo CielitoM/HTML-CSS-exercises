@@ -1,23 +1,24 @@
-div{
-    background-color: #ededed;
-    padding: 20px;
-    font-family: sans-serif;
-    border-left: 5px solid #999;
-    font-size: 14px;
+div {
+    background-color: #ededed;      /* Fondo gris claro para el contenedor principal */
+    padding: 20px;                  /* Espaciado interno de 20px en todos los lados del div */
+    font-family: sans-serif;        /* Fuente sin serifas para el contenido dentro del div */
+    border-left: 5px solid #999;    /* Borde izquierdo de 5px de grosor, color gris medio */
+    font-size: 14px;                /* Tamaño base de fuente para el contenido del div */
 }
 
-h1{
-    margin: 0;
-    font-size: 23px;
+h1 {
+    margin: 0;                      /* Elimina cualquier margen externo por defecto del encabezado */
+    font-size: 23px;                /* Establece un tamaño de fuente específico para el encabezado h1 */
 }
 
-span{
-    color: #999;
-    font-size: 16px;
-    font-weight: 100;
+span {
+    color: #999;                    /* Color de texto gris claro */
+    font-size: 16px;                /* Tamaño de fuente ligeramente mayor que el base */
+    font-weight: 100;               /* Fuente muy delgada (peso ligero) */
 }
 
-p{
-    color: #555;
-    font-size: 2em;
+p {
+    color: #555;                    /* Texto gris oscuro para mejorar legibilidad */
+    font-size: 2em;                 /* Tamaño de fuente relativo: 2 veces el tamaño del contenedor (14px x 2 = 28px) */
 }
+
