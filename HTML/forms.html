@@ -1,22 +1,42 @@
-<!--Formularios-->
+<!-- Formularios -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <meta charset="UTF-8"> <!-- Codificación UTF-8 para caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escalado en dispositivos móviles -->
+    <title>Formularios</title> <!-- Título de la pestaña del navegador -->
 </head>
 <body>
     <form>
-        <input type="text" required name="username" placeholder="escribe tu nombre", minlength="2">
+        <!-- Campo de texto obligatorio con nombre mínimo de 2 caracteres -->
+        <!-- ⚠️ ERROR: la coma después del placeholder es incorrecta en HTML -->
+        <input type="text" required name="username" placeholder="escribe tu nombre" minlength="2">
+
+        <!-- Selector de color -->
         <input type="color">
-        <input type="submit" value="enviar" >
+
+        <!-- Botón de envío del formulario -->
+        <input type="submit" value="enviar">
+
+        <!-- Campo para correo electrónico -->
         <input type="email" name="email">
+
+        <!-- Campo para contraseña -->
         <input type="password">
+
+        <!-- Casilla de verificación -->
         <input type="checkbox">
+
+        <!-- Botón de opción (radio button) -->
         <input type="radio">
+
+        <!-- Campo para subir archivos -->
         <input type="file">
+
+        <!-- Campo para seleccionar una fecha (obligatorio) -->
         <input type="date" required>
+
+        <!-- Segundo botón de envío (puede confundirse con el primero si no se diferencia) -->
         <input type="submit" value="enviar">
     </form>
 </body>
