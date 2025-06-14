@@ -1,11 +1,11 @@
-div{
-    background-color: red;
-    width: 150px;
-    margin: auto;
-    text-align: center;
+div {
+    background-color: red;      /* Establece el color de fondo del div a rojo */
+    width: 150px;               /* Define un ancho fijo de 150px */
+    margin: auto;               /* Centra el div horizontalmente dentro de su contenedor */
+    text-align: center;         /* Centra horizontalmente el contenido dentro del div */
 }
 
-div{
-    border-radius: 5px;
-    border: 3px solid black
+div {
+    border-radius: 5px;         /* Aplica esquinas redondeadas de 5px al div */
+    border: 3px solid black;    /* Agrega un borde sólido negro de 3px alrededor del div */
 }
