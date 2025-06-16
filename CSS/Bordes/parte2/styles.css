@@ -1,16 +1,15 @@
-body{
-    background-color: black;
+body {
+    background-color: black; /* Establece el fondo negro de toda la página */
 }
 
-input{
-    margin: 5px;
-    padding: 6px 9px;
-    border: none;
-    border-bottom: 1px solid greenyellow;
-    background-color: transparent;
-    border-left: 1px solid greenyellow;
-    background: transparent;
-    color: greenyellow;
-
-
+input {
+    margin: 5px;                            /* Añade un margen exterior de 5px alrededor de cada input */
+    padding: 6px 9px;                       /* Espacio interno: 6px vertical, 9px horizontal */
+    border: none;                           /* Elimina todos los bordes por defecto */
+    border-bottom: 1px solid greenyellow;   /* Agrega solo borde inferior en verde amarillento */
+    border-left: 1px solid greenyellow;     /* Agrega solo borde izquierdo en verde amarillento */
+    background-color: transparent;          /* Fondo del input completamente transparente */
+    background: transparent;                /* (Repetido) También hace transparente el fondo */
+    color: greenyellow;                     /* Color del texto dentro del input */
 }
+
