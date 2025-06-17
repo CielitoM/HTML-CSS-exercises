@@ -1,18 +1,18 @@
-body{
+body {
     margin: 0;
-    flex-direction: column;
+    display: flex;              /* Necesario para que `flex-direction` funcione */
+    flex-direction: column;    /* Organiza los elementos hijos en columna */
+    align-items: center;       /* (Opcional) Centra horizontalmente los hijos */
 }
-
-.box1{
-    background-color: red;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+.box1 {
+    background-color: red;     /* Fondo rojo */
+    height: 150px;             /* Altura de 150px */
+    width: 150px;              /* Ancho de 150px */
+    margin-bottom: 20px;       /* Espacio inferior de 20px respecto al siguiente elemento */
 }
-
-.box2{
-    background-color: red;
-    height: 150px;
-    width: 150px;
-    margin-top: 30px;
+.box2 {
+    background-color: red;     /* Fondo rojo (igual que box1) */
+    height: 150px;             /* Altura de 150px */
+    width: 150px;              /* Ancho de 150px */
+    margin-top: 30px;          /* Espacio superior de 30px respecto al anterior elemento */
 }
