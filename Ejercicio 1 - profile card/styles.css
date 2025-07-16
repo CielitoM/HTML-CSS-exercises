@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;       /* No se repita */
     background-attachment: fixed;       /* Fondo fijo al hacer scroll */
     background-position: center;
+    
 }
 
 .tarjeta{
@@ -11,6 +12,7 @@ body{
     width: 750px;
     margin: 40px auto;
     padding: 30px;
+    
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras suaves */
 }
@@ -142,27 +144,65 @@ justify-content: center;
 .container_about{
 display: flex;
 width: 700px;
+height:auto;
 margin: 20px auto;
 gap: 20px;
 }
 
-.bloque {
-    flex: 1;
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
-    font-family: Arial, sans-serif;
+
+.carrusel-css {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
 }
 
-.bloque h4 {
-    margin: 0 0 10px 0;
-    color: rgba(20, 105, 223, 0.986);
-    font-size: 1.1rem;
+.carrusel-css input[type="radio"] {
+  display: none;
 }
 
-.bloque p {
-    margin: 0;
-    font-size: 1rem;
-    color: #333;
+.slides {
+  width: 100%;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
 }
 
+.slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+/* 📦 Botones centrados y estilizados */
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.botones label {
+  background-color: #1469df;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.botones label:hover {
+  background-color: #0c3b91;
+}
