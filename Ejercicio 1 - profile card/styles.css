@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+
+.box1{
+    background-color: rgba(20, 105, 223, 0.986);
+    height: 35px;
+    width: 600px;
+    margin: auto;
+
+    font-size: smaller;
+    text-align: left;
+    padding: auto;
+}
+
+.box1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 10px;
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    margin: 20px auto;
+    align-items: center;
+    gap: 20px;
+}
+
+    .informacion {
+        flex: 1;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+        .informacion h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.4rem;
+        }
+
+        .informacion p {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+.imagen {
+    background-image: url("my_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 270px;
+    border-radius: 50%;
+    border: 2px solid rgba(20, 105, 223, 0.986);
+}
