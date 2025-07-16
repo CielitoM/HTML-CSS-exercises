@@ -1,11 +1,24 @@
 body{
+    background-image: url("background.jpg");
+    background-size: cover;             /* Que cubra toda la pantalla */
+    background-repeat: no-repeat;       /* No se repita */
+    background-attachment: fixed;       /* Fondo fijo al hacer scroll */
+    background-position: center;
+}
+
+.tarjeta{
     background-color: white;
+    width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras suaves */
 }
 
 .box1{
     background-color: rgba(20, 105, 223, 0.986);
     height: 35px;
-    width: 600px;
+    width: 700px;
     margin: auto;
 
     font-size: smaller;
@@ -21,11 +34,11 @@ body{
     font-size: 1.2rem;
 }
 
-.container{
+.container1{
     display: flex;
-    width: 600px;
+    width: 700px;
     margin: 20px auto;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -35,23 +48,121 @@ body{
         color: #333;
     }
 
+        /*"Mi nombre"*/
         .informacion h2 {
             margin: 0 0 10px 0;
-            font-size: 1.4rem;
+            font-size: 2rem;
         }
 
-        .informacion p {
+        /*"Estudiante... apasionada..."*/
+        .informacion h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.5rem;
+        }
+
+        /*"Me gusta y no me gusta"*/
+        .informacion h4 {
+            margin: 0 0 10px 0;
+            font-size: 1.0rem;
+            color: rgba(20, 105, 223, 0.986);
+        }
+
+        /*parrafo descriptivo*/
+        .informacion span {
             margin: 0;
             font-size: 1rem;
-            color: #666;
+            color: #7a7a7a;
         }
 
-.imagen {
-    background-image: url("my_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 200px;
-    height: 270px;
-    border-radius: 50%;
-    border: 2px solid rgba(20, 105, 223, 0.986);
+    .imagen {
+        background-image: url("my_photo.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 200px;
+        height: 270px;
+        /*border-radius: 50%;*/
+        border: 3px solid rgba(20, 105, 223, 0.986);
+    }
+
+.container2{
+display: flex;
+width: 700px;
+margin: 20px auto;
+align-items: flex-start;
+gap: 20px;
+justify-content: center;
 }
+
+.button1{
+    background-color: rgba(20, 105, 223, 0.986);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.button1:hover {
+    background-color: #124f9c;
+}
+
+.button2{
+    background-color: rgba(20, 105, 223, 0.986);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.button2:hover {
+    background-color: #124f9c;
+}
+
+.button3{
+    background-color: rgba(20, 105, 223, 0.986);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.button3:hover {
+    background-color: #124f9c;
+}
+
+
+.container_about{
+display: flex;
+width: 700px;
+margin: 20px auto;
+gap: 20px;
+}
+
+.bloque {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.bloque h4 {
+    margin: 0 0 10px 0;
+    color: rgba(20, 105, 223, 0.986);
+    font-size: 1.1rem;
+}
+
+.bloque p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
