@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(181, 4, 235);
+    margin: 0;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    /*Gradiente lineal*/
+    background: linear-gradient(to right, transparent, #000a);
+    /*Gradiente radial*/
+    /*background: radial-gradient( transparent, #000a);*/
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid rgb(153, 0, 150);
+    
+}
+
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
